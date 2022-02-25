@@ -1,0 +1,7 @@
+When I first initialized my Ubuntu I installed the v1 of AWS cli. -> https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
+The installation was subject to v1 at the time and I to udpate the version of my awscli.
+I followed the steps for the update process (see link above) but the aws version remained the same.
+Took me some time to find out that the Bash shell had cached the previous vesion and was not able to run the aws command in order for the cli to run.
+After a clear of the Bash cache I was able to then run the latest version of CLI:
+  -> hash -r aws
