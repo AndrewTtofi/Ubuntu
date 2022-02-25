@@ -1,0 +1,9 @@
+How to assign PrtScr(Print Screen) key to Flameshot screenshot tool in Gnome 3?
+
+Install Flameshot through your Terminal:
+  sudo apt install flameshot
+Then:
+1. Go to Keyboard settings and click 'Save a screenshot to Pictures' under 'Screenshots' section.
+2. Press 'Backspace' key delete 'PrtScr' key shortcut and press 'Set' button
+3. Press '+'(Plust) icon in the 'Custom Shortcuts' in the same window
+4. Enter 'Flameshot' in 'Name' field , 'flameshot gui' in 'Command' field, and click 'Set Shortcut' button and press 'PrtScr' button in the keyboard and close the dialog box 5.That's it. If you press 'PrtScr' key, the Flameshot selection area screen will appear.
